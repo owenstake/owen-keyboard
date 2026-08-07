@@ -378,19 +378,17 @@ CtrlMHandler() {
     HighlightControlCircle(WinExist("A"),ctrl,Cx,Cy)
     ; Send, {F6}{F6} ; only work for chrome
     ; send, {esc 3}
-    ; 检查执行结果
     if (ErrorLevel) {
-        MsgBox, 16, error错误, 找不到该控件或窗口！请检查控件名是否正确。
+      MsgBox, 16, Error, Control or window not found!`nPlease check if the control name is correct.
     } else {
-        ToolTip, ok焦点已成功切换！
+      ToolTip, Success: Focus switched!
         SetTimer, RemoveToolTip, -1500
     }
+    return
 
-      return
-
-      RemoveToolTip:
-      ToolTip
-      return
+    RemoveToolTip:
+    ToolTip
+    return
 }
 
 ; AnyKeyWait() { 

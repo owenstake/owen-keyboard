@@ -45,7 +45,7 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
     ,"wezterm-gui.exe"     : {"Shortcut" : "!+n"                                    }
     ,"firefox.exe"         : {"Shortcut" : "!o"                                    
                             , "DefaultControl" : "MozillaCompositorWindowClass1"    }
-    ,"powerpnt.exe"        : {"Shortcut" : "!p"                                    }
+    ,"wpp.exe"             : {"Shortcut" : "!p"                                    }
     ,"qq.exe"              : {"Shortcut" : "!q"                                    }
     ,"weixin.exe"          : {"Shortcut" : "!r"                                    }
     ,"FoxitPDFReader.exe"  : {"Shortcut" : "!s"
@@ -53,7 +53,8 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
                             , "KeyMapInNoramalMode" : "FoxitKeymapInNormalMode"    }
     ,"typora.exe"          : {"Shortcut" : "!a"                                    }
     ,"code.exe"            : {"Shortcut" : "!v"                                    }
-    ,"winword.exe"         : {"Shortcut" : "!w"                                    }
+    ,"wps.exe"             : {"Shortcut" : "!w"
+                            , "ExePath"  : "C:\Program Files\Kingsoft\WPS Office\ksolaunch.exe" }
     ,"zotero.exe"          : {"Shortcut" : "!z"                                    }
     ,"msedge.exe"          : {"Shortcut" : "!+c"
                             , "DefaultControl" : "Chrome_RenderWidgetHostHWND1"    }
@@ -61,7 +62,7 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
     ,"secUI.exe"           : {"Shortcut" : "!+s"                                   }
     ,"kwmusic.exe"         : {"Shortcut" : "!+u"                                   }
     ,"v2rayN.exe"          : {"Shortcut" : "!+v"                                   }
-    ,"Excel.exe"           : {"Shortcut" : "!x"                                   } }
+    ,"et.exe"              : {"Shortcut" : "!x"                                   } }
 
     ; ,"xshell.exe"          : {"Shortcut" : "!x"
     ;                         , "KeyMapInNoramalMode" : "XshellKeymapInNormalMode"   }

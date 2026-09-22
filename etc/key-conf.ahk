@@ -1,4 +1,4 @@
-; Env
+﻿; Env
 global APPDATA, ProgramData
 EnvGet, APPDATA, APPDATA
 EnvGet, ProgramData, ProgramData
@@ -30,7 +30,7 @@ global KeySendMap := { "!j"  : "{Down}"
     , "!+k" : "^{Tab}"  }
 
 ; global HotkeyAppMap :=
-global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"       }
+global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"      }
     ,"chrome.exe"          : {"Shortcut" : "!c"
                             , "DefaultControl" : "Chrome_RenderWidgetHostHWND1"    }
     ,"Draw.io.exe"         : {"Shortcut" : "!g"                                    }
@@ -41,11 +41,12 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
                             , "KeyMapInNoramalMode" : "ExplorerKeymapInNornalMode" }
     ,"obsidian.exe"        : {"Shortcut" : "!i"                                    }
     ,"mobaxterm.exe"       : {"Shortcut" : "!m"                                    }
-    ,"WindowsTerminal.exe" : {"Shortcut" : "!n"                                    }
-    ,"wezterm-gui.exe"     : {"Shortcut" : "!+n"                                    }
+    ,"wezterm-gui.exe"     : {"Shortcut" : "!n"                                    }
+    ,"WindowsTerminal.exe" : {"Shortcut" : "!+n"                                   }
     ,"firefox.exe"         : {"Shortcut" : "!o"                                    
-                            , "DefaultControl" : "MozillaCompositorWindowClass1"    }
-    ,"wpp.exe"             : {"Shortcut" : "!p"                                    }
+                            , "DefaultControl" : "MozillaCompositorWindowClass1"   }
+    ,"wpp.exe"             : {"Shortcut" : "!p"
+                            , "ExePath"  : "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WPS演示.lnk" }
     ,"qq.exe"              : {"Shortcut" : "!q"                                    }
     ,"weixin.exe"          : {"Shortcut" : "!r"                                    }
     ,"FoxitPDFReader.exe"  : {"Shortcut" : "!s"
@@ -54,7 +55,7 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
     ,"typora.exe"          : {"Shortcut" : "!a"                                    }
     ,"code.exe"            : {"Shortcut" : "!v"                                    }
     ,"wps.exe"             : {"Shortcut" : "!w"
-                            , "ExePath"  : "C:\Program Files\Kingsoft\WPS Office\ksolaunch.exe" }
+                            , "ExePath"  : "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WPS文字.lnk" }
     ,"zotero.exe"          : {"Shortcut" : "!z"                                    }
     ,"msedge.exe"          : {"Shortcut" : "!+c"
                             , "DefaultControl" : "Chrome_RenderWidgetHostHWND1"    }
@@ -62,7 +63,8 @@ global AppsConf := { "hh.exe":{"Shortcut":"!+a","ExePath":"C:\Windows\hh.exe"   
     ,"secUI.exe"           : {"Shortcut" : "!+s"                                   }
     ,"kwmusic.exe"         : {"Shortcut" : "!+u"                                   }
     ,"v2rayN.exe"          : {"Shortcut" : "!+v"                                   }
-    ,"et.exe"              : {"Shortcut" : "!x"                                   } }
+    ,"et.exe"              : {"Shortcut" : "!x"
+                            , "ExePath"  : "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WPS表格.lnk" } }
 
     ; ,"xshell.exe"          : {"Shortcut" : "!x"
     ;                         , "KeyMapInNoramalMode" : "XshellKeymapInNormalMode"   }
